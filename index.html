@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hasam.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+    <div id="title">Hasam.</div><br>
+    <div id="links">
+        <a href="#skills">About Me</a>
+        <a href="#work" style="margin:0px 60px;">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+    </div>
+
+    <center>
+    <div id="particles-js"></div>
+        <div id="tagline" class="animated zoomIn" style="animation-delay:1.8s;">
+            Computer Science Student | Aspiring Software Engineer <br>
+        </div>
+    
+    </center>
+    <script type="text/javascript" src="particles.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <div id="portfolio">
+             <div id="skills">
+                 <h1>About Me</h1>   
+                 <div>
+                        <p>
+                            I am a final year Bachelor of Computer Science student studying at UNSW Sydney with interests in cyber security, data services, and web/app development. 
+                            I am passionate about building real world software solutions that add value to people's lives and society. 
+                            In my undergraduate studies, I have gained experience in Python, C/C++, SQL, and Penetration Testing.
+                            Through university group projects, I have developed a solid understanding of the software development lifecycle and agile methodology. 
+                            Previously, I had worked in a financial services call centre - transforming me into an excellent verbal communicator!
+                            In my free time, I like to play guitar, work on side projects, play video games, and ride my motorbike. :)
+                            My goal as a student is to secure a graduate role in IT/Software Engineering.
+                        </p>
+                 </div> 
+             </div>
+         
+              <div id="work">
+                 <h1>Projects</h1>
+
+                 <div class="project">
+                 <h2>Flockr</h2>
+                 <div>I helped in developing the back-end for a communication tool called Flockr. I was responsible for engineering and testing the messaging and channel functionality. The project followed agile methodology for it's SDLC.</div>
+                 <button class="btn_one" onclick="window.open('https://sheltered-stream-93520.herokuapp.com/login', '_blank')">Visit Project</button>
+                </div>
+
+                <div class="project">
+                    <h2>Joe Rogan Tribute Page</h2>
+                    <div>As apart of freecodecamp.org's "Responsive Web Design Certification", I had created my first ever website using HTML, CSS, and Javascript. 
+                        I just wanted to make something light-hearted, nothing too serious, and challenge my newly learnt web development skills. 
+                    </div>
+                    <button class="btn_one" onclick="window.open('tribute_page.html', '_blank')">Visit Project</button>
+                    <button class="btn_two" onclick="window.open('https://github.com/HasmH/web-dev-journey/blob/master/tribute_page.html', '_blank')">Code</button>
+                </div>
+
+                <div class="project">
+                    <h2>Ethical Hacking Project - Sneaky Video Game</h2>
+                    <div>A university project for my security engineering course. I decided to create a keylogger, and cookie stealer that is disguised as a simple video game using Python. The data is exfiltrated over a network via email. 
+                        The aim of this project is to educate students and myself on the dangers of malicious software and fundamental security concepts. Ofcourse I will not be linking the final project (just the source code) as I don't want you keylogging yourself :)
+                    </div>
+                    <button class="btn_one" onclick="window.open('https://www.youtube.com/playlist?list=PLWFGhqiHyIelLM40o_86uf88sSzfIQml3', '_blank')">YouTube Series</button>
+                    <button class="btn_two" onclick="window.open('https://github.com/HasmH/COMP6841-Something-Awsome-Project/blob/main/sneaky.py', '_blank')">Code</button>
+                </div>
+             </div>
+         
+              <div id="contact">
+                 <h1>Contact</h1> 
+                 <form action="mailto:h.hasam@outlook.com" method="POST" enctype="multipart/form-data" name="Contact Me!">
+                     <input type="text" placeholder="Name" required>
+                     <input type="email" placeholder="Email" required><br>
+                     <textarea placeholder="Your Message" required rows="5"></textarea><br>
+                     <button class="btn_one">Send</button>
+                 </form> 
+             </div>
+    </div>
+    <div id="footer">
+        <i>"In the depth of winter, I finally learned that within me there lay an invincible summer." - Albert Camus </i><br><br> <a href="https://github.com/HasmH" target="_blank">HasmH</a>
+    </div>
+<script src="index.js" type="text/javascript"></script>
+</body>
+</html>
